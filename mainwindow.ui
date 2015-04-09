@@ -6,28 +6,86 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>546</width>
-    <height>404</height>
+    <width>707</width>
+    <height>493</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="helloBtn">
+   <widget class="QPushButton" name="dlgOpenData">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>150</y>
+      <x>20</x>
+      <y>10</y>
       <width>211</width>
       <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>Поприветствуй меня</string>
+     <string>Открыть базу данных</string>
     </property>
     <property name="checkable">
      <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbxLevel1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>211</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbxLevel2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>221</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cmbxLevel3">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>50</y>
+      <width>211</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="lwSolutions">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>661</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
